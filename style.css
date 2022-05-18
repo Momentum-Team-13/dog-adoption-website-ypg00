@@ -1,0 +1,42 @@
+header {
+    background-color: #004175;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #89DEEF;
+
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#main { 
+
+}
+
+.dogName {
+
+}
+
+.dog {
+
+}
+
+footer {
+
+}
+/* div, h2 { 
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+div, h3 {
+    font-size: 20px;
+} */
