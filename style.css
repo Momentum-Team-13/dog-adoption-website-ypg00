@@ -1,42 +1,31 @@
-header {
+body {
+    font-family: Open Sans;
+}
+
+#title {
     background-color: #004175;
 
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 3px;
     border-color: #89DEEF;
 
-    padding-left: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 65px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
-    font-size: 24px;
+    font-size: 50px;
 }
-
-h2 {
-    font-size: 20px;
+#subTitle {
+    font-size: 35px;
+    padding-left: 65px;
+}
+#introParagraph {
+    font-size: 28px;
+    padding-left: 65px;
 }
 
 #main { 
-
+    padding-top: 50px;
+    padding-left: 65px;
 }
 
-.dogName {
-
-}
-
-.dog {
-
-}
-
-footer {
-
-}
-/* div, h2 { 
-    font-weight: bold;
-    font-size: 30px;
-    
-}
-
-div, h3 {
-    font-size: 20px;
-} */
