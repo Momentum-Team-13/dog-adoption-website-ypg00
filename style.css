@@ -1,52 +1,67 @@
-body {
+* {
     font-family: Open Sans;
 }
 
+/* Left padding */
+#header, #sub-header, #intro, #main {
+    padding-left: 65px;
+}
+
 /* Header section */
-#title {
+#header {
     background-color: #004175;
+    border-color: #89DEEF;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-color: #89DEEF;
-    padding-left: 65px;
+    color: #FFFFFF; 
+    font-size: 60px;
+    margin: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 50px;
 }
-#subTitle {
-    padding-left: 65px;
-    font-size: 35px;
+#sub-header {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
-#introParagraph {
-    padding-left: 65px;
+#intro {
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 /*Main body with available dogs*/
 #main { 
-    padding-left: 65px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-.dogEntry {
+.dog-entry {
     padding-right: 85px;
 }
-
-.dogImage  {
+.dog-image  {
     padding-top: 75px;
     width: 500px;
 }
-
-.dogTags {
+.dog-name {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.dog-traits {
     width: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 0px;
 }
-
-.dogTag {
-    padding-right: 18px;
+.trait {
+    background-color: #89DEEF;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #89DEEF;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 5px;
 }
-
