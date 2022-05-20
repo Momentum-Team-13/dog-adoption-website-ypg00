@@ -1,8 +1,9 @@
+/* Font */
 * {
     font-family: Open Sans;
 }
 
-/* Left padding */
+/* Left padding for most of the page*/
 #header, #sub-header, #intro, #main {
     padding-left: 65px;
 }
@@ -64,4 +65,18 @@
     margin-top: 0px;
     margin-bottom: 15px;
     padding: 5px;
+}
+
+/* Footer  */
+#footer {
+
+}
+.footer-element {
+
+}
+.footer-element-header {
+
+}
+.footer-element-image {
+
 }
