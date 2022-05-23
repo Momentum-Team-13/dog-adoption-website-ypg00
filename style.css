@@ -3,6 +3,9 @@
     font-family: Open Sans;
 }
 
+body {
+}
+
 /* Left padding for most of the page*/
 #header, #sub-header, #intro, #main {
     padding-left: 65px;
@@ -15,18 +18,18 @@
     border-bottom-style: solid;
     border-bottom-width: 3px;
     color: #FFFFFF; 
-    font-size: 60px;
+    font-size: 40px;
     margin: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 #sub-header {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 50px;
     margin-bottom: 0px;
 }
 #intro {
-    font-size: 28px;
+    font-size: 16px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -38,18 +41,19 @@
     flex-wrap: wrap;
 }
 .dog-entry {
-    padding-right: 85px;
+    padding-right: 15px;
 }
 .dog-image  {
-    padding-top: 75px;
-    width: 500px;
+    margin-top: 50px;
+    width: 400px;
 }
 .dog-name {
-    font-size: 32px;
-    margin-bottom: 15px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .dog-traits {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -60,23 +64,44 @@
     border-style: solid;
     border-radius: 15px;
     border-color: #89DEEF;
-    font-size: 20px;
-    margin-right: 15px;
+    font-size: 14px;
+    margin-right: 8px;
     margin-top: 0px;
-    margin-bottom: 15px;
-    padding: 5px;
+    margin-bottom: 8px;
+    padding: 3px;
 }
 
 /* Footer  */
 #footer {
-
+    display: flex;
+    flex: 1 1 auto;
+    margin-top: 75px;
 }
 .footer-element {
-
+    height: 300px;
+    padding: 0px;
+    width: 500px;
+    text-align: center;
 }
 .footer-element-header {
-
+    color: #FFFFFF;
+    font-size: 35px;
+    padding-top: 100px;
 }
-.footer-element-image {
-
+.footer-element1 {
+    background: rgba(166, 169, 240, .25), url(starter_files/images/donate.jpg);
+    background-position: center;
+    background-size: cover;
 }
+.footer-element2 {
+    background: url(starter_files/images/volunteer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.footer-element3 {
+    background: url(starter_files/images/location.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* background-color: rgba(166, 169, 240, .25); */
