@@ -89,10 +89,14 @@ body {
     padding-top: 100px;
 }
 .footer-element1 {
-    background: url(starter_files/images/donate.jpg);
+    background: 
+    linear-gradient (
+        rgba(166, 169, 240, .25),
+        rgba(166, 169, 240, .25),
+    ), url(starter_files/images/donate.jpg);
     background-position: center;
     background-size: cover;
-    /* rgba(166, 169, 240, .25) */
+    rgba(166, 169, 240, .25)
 }
 .footer-element2 {
     background: url(starter_files/images/volunteer.jpg);
